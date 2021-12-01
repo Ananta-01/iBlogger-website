@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    /* height: 77px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+    padding: 20px;
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+.nav-left ul li{
+      list-style: none;
+      margin: 0px 14px;
+}
+.nav-left ul li a:hover{
+    text-decoration: underline;
+    color: gray;
+    font-weight: bolder;
+    
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
+font-size: 15px;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    /* height: 360px; */
+    /* background-color: white; */
+     display: flex;
+     padding: 15px;
+     position: relative;
+     height: 100%;
+
+      
+}
+/* .content::after{
+    content: "";
+    background-image: url('../img/11.svg');  
+    position: absolute;
+    width: 100%;
+    opacity: 0.15;
+} */
+.content::before{
+    content: "";
+    background: url(../img/11.svg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.15;
+    z-index: -1;
+
+}
+
+.content-left{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 55px;
+
+}
+.content-right{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-right img{
+    height: 341px;
+/* border: 1px solid #959595; */
+border-radius: 100px;
+
+}
+.home-articles{
+    /* height: 455px; */
+    background-color: rgb(242, 242, 242);
+    padding-top: 24px ;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 233px;
+    height: 250px;
+    left: 1100px;
+top: 75px;
+  
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+.home-articles h2{
+    padding: 0px 15px;
+}
+.home-articale-content a{
+    text-decoration: none;
+    color: black;
+}
+.home-article img{
+    width: 300px;
+}
+.home-articale-content{
+    align-self: center;
+    padding: 25px;
+}
+.footer{
+    height: 50px;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}

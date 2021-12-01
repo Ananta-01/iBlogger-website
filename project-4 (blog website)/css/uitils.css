@@ -1,0 +1,36 @@
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.btn{
+    padding: 4px 6px;
+    
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out ;
+}
+.btn:hover{
+    background: #a6f5a6bf;
+color: black;
+border: 1px solid #a6f5a6bf;
+
+}
+.form-input{
+    padding: 1px 20px;
+border: 1px solid black;
+border-radius: 4px;
+margin: 0px 13px;
+}
+hr{
+    color: #00000078;
+}

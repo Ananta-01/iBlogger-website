@@ -1,0 +1,31 @@
+.contact-content{
+    height: 360px;
+    height: 82vh;
+    /* background-color: white; */
+     padding: 15px;
+     position: relative;
+     
+}
+.contact-content::before{
+    content: "";
+    background: url(../img/11.svg);
+    height: 100%;
+    width: 99%;
+    position: absolute;
+    opacity: 0.15;
+    z-index: -1;
+    
+
+}
+.form-input{
+    padding: 1px 20px;
+border: 1px solid black;
+border-radius: 4px;
+margin: 0px 13px;
+}
+
+.form-box input , textarea{
+    width: 40vw;
+padding: 5px;
+margin: 15px;
+}
